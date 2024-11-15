@@ -12,6 +12,8 @@ const arnav_text=document.querySelector(".arnav_text");
 const arnav_img=document.querySelector(".arnav_img");
 const arnav_loading=document.querySelector(".arnav_loading");
 
+// NOT WORKING PLEASE CHECK
+
 // logo.addEventListener("mouseover", ()=>{
 //     fire.classList.remove("hidden");
 // })
@@ -19,11 +21,11 @@ const arnav_loading=document.querySelector(".arnav_loading");
 // logo.addEventListener('mouseout',()=>{
 //     fire.classList.add("hidden");
 // })
-// NOT WORKING PLEASE CHECK
 
-for(let i=0;i<children.length-4;i++){
-    children[i].children[0].innerHTML = `# ${i+1}`;
-}
+
+// for(let i=0;i<children.length-4;i++){
+//     children[i].children[0].innerHTML = `# ${i+1}`;
+// }
 
 function aboutClick(){
     showAbout = !showAbout;
