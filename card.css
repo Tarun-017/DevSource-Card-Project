@@ -1,4 +1,4 @@
-* {
+h* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -561,6 +561,11 @@ img:hover {
   align-items: center;
   filter: drop-shadow(15px 15px rgb(9, 0, 7));
   transition: transform 0.2s, box-shadow 0.2s;
+}
+.Khushi-Bhaskar--CARD.active {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #e0f7fa;
 }
 .Price{
   font-size:x-large;
