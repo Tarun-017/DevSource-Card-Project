@@ -18,7 +18,7 @@
   }
 }
 
-.animate-charcter {
+.animate-character {
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -36,7 +36,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 190px;
+  font-size: 20px;
 }
 
 @keyframes textclip {
@@ -262,6 +262,7 @@
 .square {
   width: 50px;
   height: 50px;
+  border-radius: 50px;
   position: absolute;
   animation: float 5s infinite;
 }
@@ -280,7 +281,7 @@
 
 .square3 {
   background: rgba(75, 255, 75, 0.599);
-  top: 60%;
+  top: 90%;
   left: 60%;
 }
 
@@ -537,3 +538,77 @@ img:hover {
 }
 
 /* Satya Card CSS */
+
+.arnav_card{
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  width:550px;
+  height: 320px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.arnav_card:hover{
+  transform:scale(1.05);
+}
+.arnav_add{
+  width:45%;
+  margin: 5px;
+  
+}
+.arnav_pricing{
+  font-family: monospace;
+  color: gray;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.arnav_check{
+  height: 15px;
+  
+}
+.arnav_visible{
+  visibility: hidden;
+}
+.arnav_btn{
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.arnav_btn:hover{
+  transform: scale(1.05);
+}
+.arnav_img{
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arnav{
+  position: relative;
+}
+.arnav_loading{
+  position: absolute;
+  color: white;
+  top:35%;
+  left:35%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-top: 4px solid red;
+  background-color: transparent;
+  animation:load 1s linear infinite;
+}
+
+@keyframes load {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
