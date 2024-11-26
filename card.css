@@ -1,4 +1,4 @@
-h* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -489,8 +489,10 @@ img:hover {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: 600px;
   border: 1px solid black;
+  width:100%;
   background-color: blanchedalmond;
   display: flex;
+  gap:40px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -543,7 +545,7 @@ img:hover {
 .Khushi-wrapper {
  font-family:Georgia, 'Times New Roman', Times, serif;
  height:800px;
- width:600;
+ width:100%;
  border: 2px solid black;
  background-color:#f9d097e9;
  display:flex;
@@ -596,11 +598,10 @@ img:hover {
   filter:grayscale(rgb(159, 159, 241))
 }
 /* --Khushi Bhaskar-- Card CSS*/
-
-=======
 .arnav_card{
   background: white;
   display: flex;
+  
   justify-content: space-evenly;
   width:550px;
   height: 320px;
@@ -617,6 +618,15 @@ img:hover {
   margin: 5px;
   
 }
+
+.Arnav-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
 .arnav_pricing{
   font-family: monospace;
   color: gray;
